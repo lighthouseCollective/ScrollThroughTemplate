@@ -3,7 +3,7 @@ Generic Template Package for an HTML5 Vertical Scroll-Through Website
 
 # Included Files
 * Blank Modular HTML5 File with CSS3, JS, and jQuery Includes
-* Corresponding CSS3 Stylesheet with 100% Screen Height Snap Points
+* Corresponding CSS3 Stylesheet
 * JavaScript file pre-included for animation purposes
 
 # USAGE
