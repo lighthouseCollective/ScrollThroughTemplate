@@ -1,0 +1,101 @@
+/*
+    style.css
+    Authored by Cody Fagley
+    March 20, 2017
+
+    Contains the style guidelines used by ScrollTemplate.html
+*/
+
+/*
+    General Properties
+*/
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+}
+
+/* Properties of all Pages */
+.page
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+}
+
+/* Navigation Bar */
+nav
+{
+    position: fixed;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Nav Bar Links */
+nav a
+{
+    position: inherit;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 10%;
+    font-size: 20px;
+    padding-top: 2.5px;
+}
+/* Nav Bar Link Hover Effects */
+nav a:hover
+{
+    color: lightgray;
+}
+    /* Nav Bar Link Positioning */
+    .navHome { left: 8%; }
+    .navSecond { left: 27%; }
+    .navThird { left: 45%; }
+    .navFourth { left: 63%; }
+    .navFifth { left: 81%; }
+
+
+/*
+    Individual Page Properties
+*/
+
+/* Home Page */
+.homePage
+{
+    background-color: red;
+    top: 0%;
+}
+
+/* Second Page */
+.secondPage
+{
+    background-color: blue;
+    top: 100%;
+}
+
+/* Third Page */
+.thirdPage
+{
+    background-color: teal;
+    top: 200%;
+}
+
+/* Fourth Page */
+.fourthPage
+{
+    background-color: purple;
+    top: 300%;
+}
+
+/* Fifth Page */
+.fifthPage
+{
+    background-color: yellow;
+    top: 400%;
+}
