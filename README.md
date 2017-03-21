@@ -8,9 +8,11 @@ Generic Template Package for an HTML5 Vertical Scroll-Through Website
 
 # USAGE
 To create a working copy of this template, use the terminal command:
+
 	git clone https://github.com/lighthouseCollective/ScrollThroughTemplate.git
 
 Then, to modify the template, make the desired changes to the template and commit the changes with the following:
+
 	git add [FILES THAT HAVE BEEN CHANGED]
 	git commit -m "Helpful message that explains the changes to the template"
 	git push
